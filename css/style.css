@@ -1,0 +1,90 @@
+/* Estilo do overlay */
+
+  .modal-overlay {
+
+    display: none;
+
+    position: fixed;
+
+    top: 0; left: 0;
+
+    width: 100%; height: 100%;
+
+    background: rgba(0,0,0,0.6);
+
+    z-index: 999;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+  /* Estilo da caixa do modal */
+
+  .modal {
+
+    background: white;
+
+    border-radius: 8px;
+
+    width: 80%;
+
+    max-width: 600px;
+
+    padding: 15px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+    position: relative;
+    
+    margin-bottom: 20px;
+    
+   /* display: none; */
+
+  }
+
+.modal h3 {
+
+    margin-top: 0;
+
+    text-align: center;
+
+    font-family: sans-serif;
+
+  }
+
+  .modal iframe {
+
+    width: 100%;
+
+    height: 300px;
+
+    border: none;
+
+  }
+
+/* Botão de fechar manual */
+
+  .close-btn {
+
+    position: absolute;
+
+    top: 8px;
+
+    right: 12px;
+
+    background: red;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 4px;
+
+    padding: 4px 8px;
+
+    cursor: pointer;
+
+  }
+
